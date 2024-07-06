@@ -23,11 +23,36 @@ namespace ConexionEjemplo
             SqlConnection conexion = 
                 new SqlConnection
                 ("Data Source=DESKTOP-JUKRMDJ\\SQLEXPRESS;Initial Catalog=Northwind;Integrated Security=True;");
+            MessageBox.Show("Conexion creada");
             conexion.Open();
-            MessageBox.Show("Conectado");
-            conexion.Close();
-            MessageBox.Show("Gracias, Conexion finalizada");
 
+            //------------------------
+
+            String selectFrom = "";
+            selectFrom = selectFrom + "SELECT " + "\n";
+            selectFrom = selectFrom + "      [CompanyName] " + "\n";
+            selectFrom = selectFrom + "      ,[ContactName] " + "\n";
+            selectFrom = selectFrom + "      ,[ContactTitle] " + "\n";
+            selectFrom = selectFrom + "      ,[Address] " + "\n";
+            selectFrom = selectFrom + "      ,[City] " + "\n";
+            selectFrom = selectFrom + "      ,[Region] " + "\n";
+            selectFrom = selectFrom + "      ,[PostalCode] " + "\n";
+            selectFrom = selectFrom + "      ,[Country] " + "\n";
+            selectFrom = selectFrom + "      ,[Phone] " + "\n";
+            selectFrom = selectFrom + "      ,[Fax] " + "\n";
+            selectFrom = selectFrom + "  FROM [dbo].[Customers]";
+
+            //-----------------------
+
+            SqlCommand comando = new SqlCommand(selectFrom, conexion);
+            SqlDataReader reader = comando.ExecuteReader();
+
+          while(reader.Read()){
+                var customerId = reader["CompanyName"];
+            }
+            
+            MessageBox.Show("Conexion cerrada");
+            conexion.Close();
         }
     }
 }
