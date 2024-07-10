@@ -8,3 +8,6 @@ C:\Users\everc\OneDrive\Documentos\progra2\conexion_vs_sql_server\ModeloDeCapasC
 C:\Users\everc\OneDrive\Documentos\progra2\conexion_vs_sql_server\ModeloDeCapasC#\ConexionEjemplo\ConexionEjemplo\obj\Debug\ConexionEjemplo.csproj.CoreCompileInputs.cache
 C:\Users\everc\OneDrive\Documentos\progra2\conexion_vs_sql_server\ModeloDeCapasC#\ConexionEjemplo\ConexionEjemplo\obj\Debug\ConexionEjemplo.exe
 C:\Users\everc\OneDrive\Documentos\progra2\conexion_vs_sql_server\ModeloDeCapasC#\ConexionEjemplo\ConexionEjemplo\obj\Debug\ConexionEjemplo.pdb
+C:\Users\everc\OneDrive\Documentos\progra2\conexion_vs_sql_server\ModeloDeCapasC#\ConexionEjemplo\ConexionEjemplo\bin\Debug\DatosLayer.dll
+C:\Users\everc\OneDrive\Documentos\progra2\conexion_vs_sql_server\ModeloDeCapasC#\ConexionEjemplo\ConexionEjemplo\bin\Debug\DatosLayer.pdb
+C:\Users\everc\OneDrive\Documentos\progra2\conexion_vs_sql_server\ModeloDeCapasC#\ConexionEjemplo\ConexionEjemplo\obj\Debug\Conexion.340F87A6.Up2Date

@@ -81,5 +81,10 @@ namespace ConexionEjemplo
             var filtro = Customers.FindAll( X => X.CompanyName.StartsWith(tbFiltro.Text));
             dataGrid.DataSource = filtro;
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            string cadenaConexion = DatosLayer.DataBase.ConnectionString;
+        }
     }
 }
