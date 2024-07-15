@@ -32,6 +32,9 @@
             this.btnCargar = new System.Windows.Forms.Button();
             this.tbFiltro = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.btnBuscar = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
+            this.txtBuscar = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGrid)).BeginInit();
             this.SuspendLayout();
             // 
@@ -71,11 +74,40 @@
             this.label1.Text = "Filtrar";
             this.label1.Click += new System.EventHandler(this.btnCargar_Click);
             // 
+            // btnBuscar
+            // 
+            this.btnBuscar.Location = new System.Drawing.Point(818, 218);
+            this.btnBuscar.Name = "btnBuscar";
+            this.btnBuscar.Size = new System.Drawing.Size(199, 23);
+            this.btnBuscar.TabIndex = 4;
+            this.btnBuscar.Text = "Buscar Cliente";
+            this.btnBuscar.UseVisualStyleBackColor = true;
+            this.btnBuscar.Click += new System.EventHandler(this.btnBuscar_Click);
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(815, 165);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(70, 13);
+            this.label2.TabIndex = 5;
+            this.label2.Text = "Customers ID";
+            // 
+            // txtBuscar
+            // 
+            this.txtBuscar.Location = new System.Drawing.Point(891, 162);
+            this.txtBuscar.Name = "txtBuscar";
+            this.txtBuscar.Size = new System.Drawing.Size(126, 20);
+            this.txtBuscar.TabIndex = 6;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1107, 562);
+            this.Controls.Add(this.txtBuscar);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.btnBuscar);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.tbFiltro);
             this.Controls.Add(this.btnCargar);
@@ -95,6 +127,9 @@
         private System.Windows.Forms.Button btnCargar;
         private System.Windows.Forms.TextBox tbFiltro;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button btnBuscar;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.TextBox txtBuscar;
     }
 }
 
