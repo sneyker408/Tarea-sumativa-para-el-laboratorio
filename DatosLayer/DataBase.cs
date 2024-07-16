@@ -13,8 +13,6 @@ namespace DatosLayer
     public class DataBase
     {
 
-       
-        
         public static string ConnectionString {
             get
             {
