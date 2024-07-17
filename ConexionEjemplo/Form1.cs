@@ -9,6 +9,9 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SqlClient;
 using DatosLayer;
+using System.Net;
+using System.Reflection;
+
 
 namespace ConexionEjemplo
 {
@@ -52,6 +55,101 @@ namespace ConexionEjemplo
                 txtBuscar.Text = cliente.CompanyName;
                 MessageBox.Show(cliente.CompanyName);
             }
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnInsertar_Click(object sender, EventArgs e)
+        {
+            var resultado = 0;
+      ;
+
+            var nuevoCliente = new Customers
+            {
+                CustomerID = tboxCustomerID.Text, 
+                CompanyName = tboxCompanyName.Text,
+                ContactName = tboxContacName.Text,
+                ContactTitle = tboxContactTitle.Text,
+                Address = tboxAddress.Text,
+                City = tboxCity.Text
+            };
+
+
+            // hayNull= validarCampoNull(nuevoCliente) ? true : false ;
+
+            /*  if (tboxCustomerID.Text != "" || 
+                  tboxCompanyName.Text !="" ||
+                  tboxContacName.Text != "" ||
+                  tboxContacName.Text != "" ||
+                  tboxAddress.Text != ""    ||
+                  tboxCity.Text != "")
+              {
+                  resultado = customerRepository.InsertarCliente(nuevoCliente);
+                  MessageBox.Show("Guardado" + "Filas modificadas = " + resultado);
+              }
+              else {
+                  MessageBox.Show("Debe completar los campos por favor");
+              }
+
+              */
+
+            /*
+            if (nuevoCliente.CustomerID == "") {
+                MessageBox.Show("El Id en el usuario debe de completarse");
+               return;    
+            }
+
+            if (nuevoCliente.ContactName == "")
+            {
+                MessageBox.Show("El nombre de usuario debe de completarse");
+                return;
+            }
+            
+            if (nuevoCliente.ContactTitle == "")
+            {
+                MessageBox.Show("El contacto de usuario debe de completarse");
+                return;
+            }
+            if (nuevoCliente.Address == "")
+            {
+                MessageBox.Show("la direccion de usuario debe de completarse");
+                return;
+            }
+            if (nuevoCliente.City == "")
+            {
+                MessageBox.Show("La ciudad de usuario debe de completarse");
+                return;
+            }
+
+            */
+
+            if (validarCampoNull(nuevoCliente) == false)
+            {
+                resultado = customerRepository.InsertarCliente(nuevoCliente);
+                MessageBox.Show("Guardado" + "Filas modificadas = " + resultado);
+            }
+            else {
+                MessageBox.Show("Debe completar los campos por favor");
+            }
+        }
+        // si encautnra un null enviara true de lo caontrario false
+        public Boolean validarCampoNull(Object objeto) {
+
+            foreach (PropertyInfo property in objeto.GetType().GetProperties()) {
+                object value = property.GetValue(objeto, null);
+                if ((string)value == "") {
+                    return true;
+                }
+            }
+            return false;
+        }
+      
+        private void label5_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
