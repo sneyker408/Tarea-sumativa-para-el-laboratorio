@@ -94,7 +94,6 @@ namespace DatosLayer
 
         public int InsertarCliente(Customers customer) {
             using (var conexion = DataBase.GetSqlConnection()) {
-
                 String insertInto = "";
                 insertInto = insertInto + "INSERT INTO [dbo].[Customers] " + "\n";
                 insertInto = insertInto + "           ([CustomerID] " + "\n";
@@ -111,9 +110,7 @@ namespace DatosLayer
                 insertInto = insertInto + "           ,@Address " + "\n";
                 insertInto = insertInto + "           ,@City)";
 
-
                 using (var comando = new SqlCommand( insertInto,conexion )) {
-
                     comando.Parameters.AddWithValue("CustomerID", customer.CustomerID);
                     comando.Parameters.AddWithValue("CompanyName", customer.CompanyName);
                     comando.Parameters.AddWithValue("ContactName", customer.ContactName);
