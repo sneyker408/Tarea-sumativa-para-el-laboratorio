@@ -79,6 +79,7 @@ namespace DatosLayer
         public Customers LeerDelDataReader( SqlDataReader reader) {
           
             Customers customers = new Customers();
+            customers.CustomerID = reader["CustomerID"] == DBNull.Value ? " " : (String)reader["CustomerID"];
             customers.CompanyName = reader["CompanyName"] == DBNull.Value ? "" : (String)reader["CompanyName"];
             customers.ContactName = reader["ContactName"] == DBNull.Value ? "" : (String)reader["ContactName"];
             customers.ContactTitle = reader["ContactTitle"] == DBNull.Value ? "" : (String)reader["ContactTitle"];
@@ -124,5 +125,30 @@ namespace DatosLayer
             }
         }
 
+        public int ActualizarCliente(Customers customer) {
+            using (var conexion = DataBase.GetSqlConnection()) {
+                String ActualizarCustomerPorID = "";
+                ActualizarCustomerPorID = ActualizarCustomerPorID + "UPDATE [dbo].[Customers] " + "\n";
+                ActualizarCustomerPorID = ActualizarCustomerPorID + "   SET [CustomerID] = @CustomerID " + "\n";
+                ActualizarCustomerPorID = ActualizarCustomerPorID + "      ,[CompanyName] = @CompanyName " + "\n";
+                ActualizarCustomerPorID = ActualizarCustomerPorID + "      ,[ContactName] = @ContactName " + "\n";
+                ActualizarCustomerPorID = ActualizarCustomerPorID + "      ,[ContactTitle] = @ContactTitle " + "\n";
+                ActualizarCustomerPorID = ActualizarCustomerPorID + "      ,[Address] = @Address " + "\n";
+                ActualizarCustomerPorID = ActualizarCustomerPorID + "      ,[City] = @City " + "\n";
+                ActualizarCustomerPorID = ActualizarCustomerPorID + " WHERE CustomerID= @CustomerID";
+                using (var comando = new SqlCommand(ActualizarCustomerPorID, conexion)) { 
+                   
+
+
+                }
+                
+            
+            } 
+
+                return 0;
+        }
+
+
+        
     }
 }

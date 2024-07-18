@@ -51,10 +51,14 @@ namespace ConexionEjemplo
         private void btnBuscar_Click(object sender, EventArgs e)
         {
             var cliente = customerRepository.ObtenerPorID(txtBuscar.Text);
-            if (cliente != null ) {
-                txtBuscar.Text = cliente.CompanyName;
-                MessageBox.Show(cliente.CompanyName);
-            }
+            tboxCustomerID.Text = cliente.CustomerID;
+            tboxCompanyName.Text = cliente.CompanyName;
+            tboxContacName.Text = cliente.ContactName;
+            tboxContactTitle.Text= cliente.ContactTitle;
+            tboxAddress.Text = cliente.Address;
+            tboxCity.Text = cliente.City;
+
+
         }
 
         private void label4_Click(object sender, EventArgs e)
