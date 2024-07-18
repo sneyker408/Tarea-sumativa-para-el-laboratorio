@@ -71,15 +71,7 @@ namespace ConexionEjemplo
             var resultado = 0;
       ;
 
-            var nuevoCliente = new Customers
-            {
-                CustomerID = tboxCustomerID.Text, 
-                CompanyName = tboxCompanyName.Text,
-                ContactName = tboxContacName.Text,
-                ContactTitle = tboxContactTitle.Text,
-                Address = tboxAddress.Text,
-                City = tboxCity.Text
-            };
+            var nuevoCliente = ObtenerNuevoCliente();
 
 
             // hayNull= validarCampoNull(nuevoCliente) ? true : false ;
@@ -155,5 +147,29 @@ namespace ConexionEjemplo
         {
 
         }
+
+        private void btModificar_Click(object sender, EventArgs e)
+        {
+            var actualizarCliente = ObtenerNuevoCliente();
+            int actualizadas = customerRepository.ActualizarCliente(actualizarCliente);
+            MessageBox.Show($"Filas actualizadas = {actualizadas}");
+        }
+
+        private Customers ObtenerNuevoCliente() {
+
+            var nuevoCliente = new Customers
+            {
+                CustomerID = tboxCustomerID.Text,
+                CompanyName = tboxCompanyName.Text,
+                ContactName = tboxContacName.Text,
+                ContactTitle = tboxContactTitle.Text,
+                Address = tboxAddress.Text,
+                City = tboxCity.Text
+            };
+
+            return nuevoCliente;
+        }
+        
+
     }
 }

@@ -240,6 +240,7 @@
             this.btModificar.TabIndex = 22;
             this.btModificar.Text = "Modificar";
             this.btModificar.UseVisualStyleBackColor = true;
+            this.btModificar.Click += new System.EventHandler(this.btModificar_Click);
             // 
             // Form1
             // 
