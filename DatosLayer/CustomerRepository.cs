@@ -150,6 +150,17 @@ namespace DatosLayer
             return insertados;
         }
 
-        
+        public int EliminarCliente(string id) {
+            using (var conexion = DataBase.GetSqlConnection() ){
+                String EliminarCliente = "";
+                EliminarCliente = EliminarCliente + "DELETE FROM [dbo].[Customers] " + "\n";
+                EliminarCliente = EliminarCliente + "      WHERE CustomerID = @CustomerID";
+                using (SqlCommand comando = new SqlCommand(EliminarCliente, conexion)) {
+                    comando.Parameters.AddWithValue("@CustomerID", id);
+                    int elimindos = comando.ExecuteNonQuery();
+                    return elimindos;
+                }
+            }
+        }
     }
 }

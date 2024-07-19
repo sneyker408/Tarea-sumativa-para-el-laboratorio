@@ -169,7 +169,11 @@ namespace ConexionEjemplo
 
             return nuevoCliente;
         }
-        
 
+        private void btnEliminar_Click(object sender, EventArgs e)
+        {
+           int elimindas = customerRepository.EliminarCliente(tboxCustomerID.Text);
+            MessageBox.Show("Filas eliminadas = " + elimindas);
+        }
     }
 }

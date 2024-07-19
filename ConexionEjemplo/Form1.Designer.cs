@@ -50,6 +50,7 @@
             this.tboxContacName = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.btModificar = new System.Windows.Forms.Button();
+            this.btnEliminar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGrid)).BeginInit();
             this.SuspendLayout();
             // 
@@ -242,11 +243,22 @@
             this.btModificar.UseVisualStyleBackColor = true;
             this.btModificar.Click += new System.EventHandler(this.btModificar_Click);
             // 
+            // btnEliminar
+            // 
+            this.btnEliminar.Location = new System.Drawing.Point(811, 446);
+            this.btnEliminar.Name = "btnEliminar";
+            this.btnEliminar.Size = new System.Drawing.Size(427, 39);
+            this.btnEliminar.TabIndex = 23;
+            this.btnEliminar.Text = "Eliminar usuario ";
+            this.btnEliminar.UseVisualStyleBackColor = true;
+            this.btnEliminar.Click += new System.EventHandler(this.btnEliminar_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1250, 514);
+            this.Controls.Add(this.btnEliminar);
             this.Controls.Add(this.btModificar);
             this.Controls.Add(this.tboxContacName);
             this.Controls.Add(this.label5);
@@ -302,6 +314,7 @@
         private System.Windows.Forms.TextBox tboxContacName;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Button btModificar;
+        private System.Windows.Forms.Button btnEliminar;
     }
 }
 
