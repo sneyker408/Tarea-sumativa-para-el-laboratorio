@@ -9,3 +9,14 @@ C:\Users\everc\OneDrive\Documentos\progra2\conexion_vs_sql_server\DataSourceDemo
 C:\Users\everc\OneDrive\Documentos\progra2\conexion_vs_sql_server\DataSourceDemo\DataSourceDemo\obj\Debug\DataSourceDemo.exe
 C:\Users\everc\OneDrive\Documentos\progra2\conexion_vs_sql_server\DataSourceDemo\DataSourceDemo\obj\Debug\DataSourceDemo.pdb
 C:\Users\everc\OneDrive\Documentos\progra2\conexion_vs_sql_server\DataSourceDemo\DataSourceDemo\obj\Debug\DataSourceDemo.Form2.resources
+C:\Users\sneyk\OneDrive\Imágenes\Escritorio\sqlServer_visualEstudio_Conectado_DataProvider\DataSourceDemo\bin\Debug\DataSourceDemo.exe.config
+C:\Users\sneyk\OneDrive\Imágenes\Escritorio\sqlServer_visualEstudio_Conectado_DataProvider\DataSourceDemo\bin\Debug\DataSourceDemo.exe
+C:\Users\sneyk\OneDrive\Imágenes\Escritorio\sqlServer_visualEstudio_Conectado_DataProvider\DataSourceDemo\bin\Debug\DataSourceDemo.pdb
+C:\Users\sneyk\OneDrive\Imágenes\Escritorio\sqlServer_visualEstudio_Conectado_DataProvider\DataSourceDemo\obj\Debug\DataSourceDemo.csproj.AssemblyReference.cache
+C:\Users\sneyk\OneDrive\Imágenes\Escritorio\sqlServer_visualEstudio_Conectado_DataProvider\DataSourceDemo\obj\Debug\DataSourceDemo.Form1.resources
+C:\Users\sneyk\OneDrive\Imágenes\Escritorio\sqlServer_visualEstudio_Conectado_DataProvider\DataSourceDemo\obj\Debug\DataSourceDemo.Form2.resources
+C:\Users\sneyk\OneDrive\Imágenes\Escritorio\sqlServer_visualEstudio_Conectado_DataProvider\DataSourceDemo\obj\Debug\DataSourceDemo.Properties.Resources.resources
+C:\Users\sneyk\OneDrive\Imágenes\Escritorio\sqlServer_visualEstudio_Conectado_DataProvider\DataSourceDemo\obj\Debug\DataSourceDemo.csproj.GenerateResource.cache
+C:\Users\sneyk\OneDrive\Imágenes\Escritorio\sqlServer_visualEstudio_Conectado_DataProvider\DataSourceDemo\obj\Debug\DataSourceDemo.csproj.CoreCompileInputs.cache
+C:\Users\sneyk\OneDrive\Imágenes\Escritorio\sqlServer_visualEstudio_Conectado_DataProvider\DataSourceDemo\obj\Debug\DataSourceDemo.exe
+C:\Users\sneyk\OneDrive\Imágenes\Escritorio\sqlServer_visualEstudio_Conectado_DataProvider\DataSourceDemo\obj\Debug\DataSourceDemo.pdb

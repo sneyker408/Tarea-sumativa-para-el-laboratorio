@@ -4,3 +4,9 @@ C:\Users\everc\OneDrive\Documentos\progra2\conexion_vs_sql_server\ModeloDeCapasC
 C:\Users\everc\OneDrive\Documentos\progra2\conexion_vs_sql_server\ModeloDeCapasC#\ConexionEjemplo\DatosLayer\obj\Debug\DatosLayer.csproj.CoreCompileInputs.cache
 C:\Users\everc\OneDrive\Documentos\progra2\conexion_vs_sql_server\ModeloDeCapasC#\ConexionEjemplo\DatosLayer\obj\Debug\DatosLayer.dll
 C:\Users\everc\OneDrive\Documentos\progra2\conexion_vs_sql_server\ModeloDeCapasC#\ConexionEjemplo\DatosLayer\obj\Debug\DatosLayer.pdb
+C:\Users\sneyk\OneDrive\Imágenes\Escritorio\sqlServer_visualEstudio_Conectado_DataProvider\DatosLayer\bin\Debug\DatosLayer.dll
+C:\Users\sneyk\OneDrive\Imágenes\Escritorio\sqlServer_visualEstudio_Conectado_DataProvider\DatosLayer\bin\Debug\DatosLayer.pdb
+C:\Users\sneyk\OneDrive\Imágenes\Escritorio\sqlServer_visualEstudio_Conectado_DataProvider\DatosLayer\obj\Debug\DatosLayer.csproj.AssemblyReference.cache
+C:\Users\sneyk\OneDrive\Imágenes\Escritorio\sqlServer_visualEstudio_Conectado_DataProvider\DatosLayer\obj\Debug\DatosLayer.csproj.CoreCompileInputs.cache
+C:\Users\sneyk\OneDrive\Imágenes\Escritorio\sqlServer_visualEstudio_Conectado_DataProvider\DatosLayer\obj\Debug\DatosLayer.dll
+C:\Users\sneyk\OneDrive\Imágenes\Escritorio\sqlServer_visualEstudio_Conectado_DataProvider\DatosLayer\obj\Debug\DatosLayer.pdb
