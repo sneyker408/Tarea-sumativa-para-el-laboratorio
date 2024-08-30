@@ -1,0 +1,164 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\sneyk\\OneDrive\\Im\u00E1genes\\Escritorio\\Laboratorio\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4415BBC4-4CDA-46E7-B614-9D094FAB67BE}|ConexionEjemplo\\ConexionEjemplo.csproj|C:\\Users\\sneyk\\OneDrive\\Im\u00E1genes\\Escritorio\\Laboratorio\\conexionejemplo\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4415BBC4-4CDA-46E7-B614-9D094FAB67BE}|ConexionEjemplo\\ConexionEjemplo.csproj|solutionrelative:conexionejemplo\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4415BBC4-4CDA-46E7-B614-9D094FAB67BE}|ConexionEjemplo\\ConexionEjemplo.csproj|c:\\users\\sneyk\\onedrive\\im\u00E1genes\\escritorio\\laboratorio\\conexionejemplo\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4415BBC4-4CDA-46E7-B614-9D094FAB67BE}|ConexionEjemplo\\ConexionEjemplo.csproj|solutionrelative:conexionejemplo\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDE84799-3F6E-41B4-81F0-2144DA00A776}|DatosLayer\\DatosLayer.csproj|C:\\Users\\sneyk\\OneDrive\\Im\u00E1genes\\Escritorio\\Laboratorio\\datoslayer\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDE84799-3F6E-41B4-81F0-2144DA00A776}|DatosLayer\\DatosLayer.csproj|solutionrelative:datoslayer\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDE84799-3F6E-41B4-81F0-2144DA00A776}|DatosLayer\\DatosLayer.csproj|C:\\Users\\sneyk\\OneDrive\\Im\u00E1genes\\Escritorio\\Laboratorio\\datoslayer\\customers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDE84799-3F6E-41B4-81F0-2144DA00A776}|DatosLayer\\DatosLayer.csproj|solutionrelative:datoslayer\\customers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDE84799-3F6E-41B4-81F0-2144DA00A776}|DatosLayer\\DatosLayer.csproj|C:\\Users\\sneyk\\OneDrive\\Im\u00E1genes\\Escritorio\\Laboratorio\\datoslayer\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDE84799-3F6E-41B4-81F0-2144DA00A776}|DatosLayer\\DatosLayer.csproj|solutionrelative:datoslayer\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4415BBC4-4CDA-46E7-B614-9D094FAB67BE}|ConexionEjemplo\\ConexionEjemplo.csproj|C:\\Users\\sneyk\\OneDrive\\Im\u00E1genes\\Escritorio\\Laboratorio\\conexionejemplo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4415BBC4-4CDA-46E7-B614-9D094FAB67BE}|ConexionEjemplo\\ConexionEjemplo.csproj|solutionrelative:conexionejemplo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4415BBC4-4CDA-46E7-B614-9D094FAB67BE}|ConexionEjemplo\\ConexionEjemplo.csproj|C:\\Users\\sneyk\\OneDrive\\Im\u00E1genes\\Escritorio\\Laboratorio\\conexionejemplo\\northwinddataset.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4415BBC4-4CDA-46E7-B614-9D094FAB67BE}|ConexionEjemplo\\ConexionEjemplo.csproj|solutionrelative:conexionejemplo\\northwinddataset.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4415BBC4-4CDA-46E7-B614-9D094FAB67BE}|ConexionEjemplo\\ConexionEjemplo.csproj|C:\\Users\\sneyk\\OneDrive\\Im\u00E1genes\\Escritorio\\Laboratorio\\conexionejemplo\\northwinddataset.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}",
+      "RelativeMoniker": "D:0:0:{4415BBC4-4CDA-46E7-B614-9D094FAB67BE}|ConexionEjemplo\\ConexionEjemplo.csproj|solutionrelative:conexionejemplo\\northwinddataset.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4415BBC4-4CDA-46E7-B614-9D094FAB67BE}|ConexionEjemplo\\ConexionEjemplo.csproj|C:\\Users\\sneyk\\OneDrive\\Im\u00E1genes\\Escritorio\\Laboratorio\\conexionejemplo\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{4415BBC4-4CDA-46E7-B614-9D094FAB67BE}|ConexionEjemplo\\ConexionEjemplo.csproj|solutionrelative:conexionejemplo\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "NorthwindDataSet.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\sneyk\\OneDrive\\Im\u00E1genes\\Escritorio\\Laboratorio\\ConexionEjemplo\\NorthwindDataSet.Designer.cs",
+              "RelativeDocumentMoniker": "ConexionEjemplo\\NorthwindDataSet.Designer.cs",
+              "ToolTip": "C:\\Users\\sneyk\\OneDrive\\Im\u00E1genes\\Escritorio\\Laboratorio\\ConexionEjemplo\\NorthwindDataSet.Designer.cs",
+              "RelativeToolTip": "ConexionEjemplo\\NorthwindDataSet.Designer.cs",
+              "ViewState": "AgIAAC0GAAAAAAAAAAAwwFgIAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T03:10:06.593Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "NorthwindDataSet.xsd",
+              "DocumentMoniker": "C:\\Users\\sneyk\\OneDrive\\Im\u00E1genes\\Escritorio\\Laboratorio\\ConexionEjemplo\\NorthwindDataSet.xsd",
+              "RelativeDocumentMoniker": "ConexionEjemplo\\NorthwindDataSet.xsd",
+              "ToolTip": "C:\\Users\\sneyk\\OneDrive\\Im\u00E1genes\\Escritorio\\Laboratorio\\ConexionEjemplo\\NorthwindDataSet.xsd",
+              "RelativeToolTip": "ConexionEjemplo\\NorthwindDataSet.xsd",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003579|",
+              "WhenOpened": "2024-08-28T03:10:04.621Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\sneyk\\OneDrive\\Im\u00E1genes\\Escritorio\\Laboratorio\\ConexionEjemplo\\App.config",
+              "RelativeDocumentMoniker": "ConexionEjemplo\\App.config",
+              "ToolTip": "C:\\Users\\sneyk\\OneDrive\\Im\u00E1genes\\Escritorio\\Laboratorio\\ConexionEjemplo\\App.config",
+              "RelativeToolTip": "ConexionEjemplo\\App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-08-28T02:20:09.084Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\sneyk\\OneDrive\\Im\u00E1genes\\Escritorio\\Laboratorio\\ConexionEjemplo\\Form1.cs",
+              "RelativeDocumentMoniker": "ConexionEjemplo\\Form1.cs",
+              "ToolTip": "C:\\Users\\sneyk\\OneDrive\\Im\u00E1genes\\Escritorio\\Laboratorio\\ConexionEjemplo\\Form1.cs",
+              "RelativeToolTip": "ConexionEjemplo\\Form1.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAQwIkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T02:20:44.156Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DataBase.cs",
+              "DocumentMoniker": "C:\\Users\\sneyk\\OneDrive\\Im\u00E1genes\\Escritorio\\Laboratorio\\DatosLayer\\DataBase.cs",
+              "RelativeDocumentMoniker": "DatosLayer\\DataBase.cs",
+              "ToolTip": "C:\\Users\\sneyk\\OneDrive\\Im\u00E1genes\\Escritorio\\Laboratorio\\DatosLayer\\DataBase.cs",
+              "RelativeToolTip": "DatosLayer\\DataBase.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAmwD4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T02:20:05.668Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Customers.cs",
+              "DocumentMoniker": "C:\\Users\\sneyk\\OneDrive\\Im\u00E1genes\\Escritorio\\Laboratorio\\DatosLayer\\Customers.cs",
+              "RelativeDocumentMoniker": "DatosLayer\\Customers.cs",
+              "ToolTip": "C:\\Users\\sneyk\\OneDrive\\Im\u00E1genes\\Escritorio\\Laboratorio\\DatosLayer\\Customers.cs",
+              "RelativeToolTip": "DatosLayer\\Customers.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T02:20:03.715Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CustomerRepository.cs",
+              "DocumentMoniker": "C:\\Users\\sneyk\\OneDrive\\Im\u00E1genes\\Escritorio\\Laboratorio\\DatosLayer\\CustomerRepository.cs",
+              "RelativeDocumentMoniker": "DatosLayer\\CustomerRepository.cs",
+              "ToolTip": "C:\\Users\\sneyk\\OneDrive\\Im\u00E1genes\\Escritorio\\Laboratorio\\DatosLayer\\CustomerRepository.cs",
+              "RelativeToolTip": "DatosLayer\\CustomerRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T02:19:57.929Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\sneyk\\OneDrive\\Im\u00E1genes\\Escritorio\\Laboratorio\\ConexionEjemplo\\Program.cs",
+              "RelativeDocumentMoniker": "ConexionEjemplo\\Program.cs",
+              "ToolTip": "C:\\Users\\sneyk\\OneDrive\\Im\u00E1genes\\Escritorio\\Laboratorio\\ConexionEjemplo\\Program.cs",
+              "RelativeToolTip": "ConexionEjemplo\\Program.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAcwB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T02:19:54.758Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\sneyk\\OneDrive\\Im\u00E1genes\\Escritorio\\Laboratorio\\ConexionEjemplo\\Form1.cs",
+              "RelativeDocumentMoniker": "ConexionEjemplo\\Form1.cs",
+              "ToolTip": "C:\\Users\\sneyk\\OneDrive\\Im\u00E1genes\\Escritorio\\Laboratorio\\ConexionEjemplo\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "ConexionEjemplo\\Form1.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T02:19:43.072Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
